@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <title>TiX Chat client (testing)</title>
+  </head>
+  <body>
+    <script>
+      window.C = {};
+      require('./client/external/jquery.js')
+      require('./client/external/coastline.js');
+      require('q');
+
+      require('./client/socket.js');
+      require('./client/core.js');
+
+    </script>
+  </body>
+</html>

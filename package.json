@@ -1,0 +1,22 @@
+{
+  "name": "tixChatClient",
+  "version": "1.0.0",
+  "description": "TiX Chat client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JrooTJunior/tixChatClient.git"
+  },
+  "author": "Alex Root Junior",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.8",
+    "jquery": "^2.1.4",
+    "q": "^1.4.1",
+    "websocket": "^1.0.22",
+    "coastline": "^0.4.15"
+  }
+}
